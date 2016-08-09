@@ -1,0 +1,5 @@
+<%= form_for @task do |f| %>
+  <%= f.text_field :name %>
+  <p>Mark as done <%= f.check_box :done %></p>
+  <%= f.submit %>
+<% end %>
